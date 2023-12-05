@@ -1,0 +1,3 @@
+schedule
+chrome-binary-auto
+selenium

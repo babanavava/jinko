@@ -27,6 +27,9 @@ class JINKO:
         self.op.add_argument('--proxy-server="direct://"')
         self.op.add_argument('--proxy-bypass-list=*')
         # self.op.add_argument('--start-maximized')
+        self.op.add_argument('--disable-logging')
+        self.op.add_argument('--log-level=3')
+        self.op.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.op.add_experimental_option("excludeSwitches", ['enable-automation'])
 
     def syokika(self):
